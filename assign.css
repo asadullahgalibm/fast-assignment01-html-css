@@ -1,0 +1,155 @@
+
+/* dddddddddddddddddddddddddddddddddddddddddddddd */
+/* ===== Reset ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ===== Navbar ===== */
+.head {
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 10px 20px;
+    
+}
+
+.head-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+/* Logo */
+.logo {
+    height: 50px;
+}
+
+/* Links */
+.head-content ul{
+    display: flex;
+    gap: 25px;
+    cursor: pointer;
+    list-style: none
+    
+}
+
+
+
+
+/* Button */
+.head-content button{
+    padding: 8px 18px;
+    background-color: #22c55e;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    
+}
+/* DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD */
+.sec1{
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+    max-width: 1200;
+    position: relative;
+    width: 100%;                         /* full width */
+    min-height: 100vh;    
+     background-image: url("assets/hero-bg.png");
+     background-size: cover;  
+     background-position: center;         /* centered */
+    background-repeat: no-repeat;  
+    margin: 0 auto;
+    display: flex;                       /* content center করার জন্য */
+    align-items: center;
+    justify-content: center;
+
+}
+.sec1div{
+    width: auto;
+    color: aliceblue;
+
+}
+.sec1div h1{
+    margin-bottom: 5px;
+}
+.sec1div p{
+    margin-bottom: 15px;
+}
+.badge{
+    
+    padding: 3px 10px;
+    font-size: 13px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.badge img{
+    height: 10px;
+    margin-right: 5px;
+}
+.primary{
+    background-color: #29924f;
+    padding: 13px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 12PX;
+    color: #f3f3f3;
+    margin-right: 5px;
+
+}
+.outline{
+    background: none;
+    border-color: #f3f3f3;
+    padding: 11px 10px;
+    border-width: .1ic;
+    border-radius: 4px;
+    color: #f3f3f3;
+    margin-left: 5px;
+}
+/* DDDDDDDDDDDDDDDDDDDDDDDddddddddddddddddddddddddddddddddddddddd */
+ .sec2{
+    background-color: #22c55e;
+    
+ }
+ .sec2-head{
+    text-align: center;
+ }
+ .sec2-head h1{
+    padding-top: 20px;
+    padding-bottom: 6px;
+ }
+
+ .sec2-list{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin: 44px;
+    padding-bottom: 44px;
+    padding-top: 4px;
+    padding-left: 30px;
+    padding-right: 10px;
+ }
+.li-box1{
+    text-align: center;
+}
+.li-box1 img{
+    height: 50x;
+    background-color: rgb(240, 64, 64);
+    padding: 12px;
+    border-radius: 50%;
+}
+
+
+
