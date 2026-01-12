@@ -261,8 +261,10 @@ color: #001931;
 .sec3{
     padding: 20px 20px;
     background-color: #ffffff;
+    
 }
 .sec3-content{
+    
     display: flex;
     gap: 60px;
 }
