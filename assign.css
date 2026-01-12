@@ -3,11 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+     text-decoration: none;
+    
 }
 
-g
 
-/* ===== Navbar ===== */
+
+/*  NavbarNavbarNavbarNavbarNavbarNavbar  */
 .head {
     width: 100%;
     background-color: #f3f3f3;
@@ -24,7 +26,6 @@ g
     gap: 20px;
 }
 
-/* Logo */
 .logo {
     height: 50px;
 }
@@ -38,9 +39,6 @@ g
     
 }
 
-
-
-
 /* Button */
 .head-content button{
     padding: 8px 18px;
@@ -52,20 +50,22 @@ g
     font-size: 16px;
     
 }
-/* DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD */
+/* section-01section-01section-01section-01section-01 */
+
+
 .sec1{
     background-color: rgb(248, 248, 248);
     text-align: center;
-    max-width: 1200;
+    max-width: 1200px;
     position: relative;
-    width: 100%;                         /* full width */
+    width: 100%;                         
     min-height: 100vh;    
      background-image: url("assets/hero-bg.png");
      background-size: cover;  
-     background-position: center;         /* centered */
+     background-position: center;        
     background-repeat: no-repeat;  
     margin: 0 auto;
-    display: flex;                       /* content center করার জন্য */
+    display: flex;                      
     align-items: center;
     justify-content: center;
 
@@ -112,9 +112,9 @@ g
     color: #f3f3f3;
     margin-left: 5px;
 }
-/* DDDDDDDDDDDDDDDDDDDDDDDddddddddddddddddddddddddddddddddddddddd */
+/* section-02section-02section-02section-02 */
  .sec2{
-    background-cfolor: #22c55e;
+    background-color: #fdfffe;
     
     
  }
@@ -241,8 +241,8 @@ g
     margin-bottom: 10px;
     
 }
-/* dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd */
 
+/* section-03section-03section-03section-03section-03 */
 .sec3{
     padding: 120px 120px;
     background-color: #ffffff;
@@ -294,4 +294,52 @@ g
 }
 .s3li4{
     padding-bottom: 8px;
+}
+/* section-04section-04section-04section-04section-04 */
+.sec4{
+background-color: #FFFFFF;
+}
+.sec4-contant{
+    text-align: center;
+    padding: 120px 120px;
+    
+    
+}
+.s4-hpb{
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+}
+.s4-hpb h1{
+    margin-bottom: 10px;
+}
+.s4-hpb p{
+    margin-bottom: 19px;
+}
+.s4-hpb button{
+    padding-left: 29px;
+    padding-right: 25px;
+    padding-bottom: 08px;
+    padding-top: 06px;
+    background-color: #0a8423;
+    color: #f3f3f3;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    
+}
+/* FooterFooterFooterFooterFooterFooter */
+.foot{
+    background-color: #001931;
+   color: #f3f3f3;
+}
+.foot-p{
+    text-align: center;
+ 
+}
+.foot-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 164px 120px;
+
 }
